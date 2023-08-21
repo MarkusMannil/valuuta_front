@@ -1,13 +1,18 @@
-
-label {
+label{
     display: inline-block;
     float: left;
     clear: left;
-    width: 250px;
+    width: 75px;
     text-align: right;
 }
-
 input {
     display: inline-block;
     float: left;
+}
+
+.error{
+    color: #cc0000;
+}
+table, th, td {
+    border: 2px solid black;
 }
